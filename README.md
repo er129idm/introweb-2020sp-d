@@ -5,11 +5,11 @@
 ### Technology, Culture and Society
 ### Integrated Digital Media
 
-**DM-UY 2193 SECTION B Intro to Web Development**
+**DM-UY 2193 SECTION D Intro to Web Development**
 
 **Spring 2020 – Professor Effie Rieper**
 
-*Tuesday + Thursday 12:30 - 2:20pm, 370 Jay St. Room 312*
+*Tuesday + Thursday 2:30 - 4:20pm, 370 Jay St. Room 307*
 
 *To contact professor: er129@nyu.edu*
 
