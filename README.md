@@ -172,6 +172,4 @@ You can find the official academic calendar [here](https://www.nyu.edu/registrar
 
 **Friday, April 3, 2020** - Last day to use the Term Withdrawal Form to submit a spring semester term withdrawal request or submit a request to withdraw from a course. Students should consult the academic calendar of their home school for specific deadlines pertaining to course withdrawal for the term
 
-**Wednesday, November 27, 2019 - Friday, November 29, 2019** - Student Thanksgiving Recess
-
 **Monday, May 11, 2020** - Last day of Fall 2019 Classes
