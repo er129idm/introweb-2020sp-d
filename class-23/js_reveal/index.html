@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Library showcase.</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <div id="popover">
+    <h2 id="closeButton">X</h2>
+    <div id="popContentA" class="popContent">
+      <h2>Content A</h2>
+      <img src="https://source.unsplash.com/random/700x300">
+      <p>Malis est incurreret. Officia nisi pariatur non non ab concursionibus. Aut ipsum
+        id minim, admodum iis incididunt nam amet senserit praetermissum ea quem
+        pariatur comprehenderit.</p>
+        <p>Incurreret multos duis incididunt cillum nam deserunt se
+        fore ad aliqua philosophari quamquam enim quibusdam, dolore est doctrina.</p>
+        <p>Qui ex minim mandaremus, si proident praetermissum, elit de
+        quibusdam ita export fidelissimae doctrina elit singulis. Est voluptate te
+        nostrud e ea veniam dolor si mandaremus id quo se irure anim tempor qui summis
+        fabulas ullamco e nulla admodum ut illum legam ut fabulas hic velit arbitror,
+        doctrina dolore doctrina laborum, quo export deserunt deserunt.</p>
+    </div>
+    <div id="popContentB" class="popContent">
+      <h2>Content B: :)</h2>
+      <p><img src="https://source.unsplash.com/random/500x300"></p>
+      <p>Whoa here's more content...</p>
+    </div>
+    <div id="popContentC" class="popContent">
+      <h2>Content C</h2>
+      <p><img src="https://source.unsplash.com/random/800x300"></p>
+      <p>Malis est incurreret. Officia nisi pariatur non non ab concursionibus. Aut ipsum
+        id minim, admodum iis incididunt nam amet senserit praetermissum ea quem
+        pariatur comprehenderit.</p>
+        <p>Incurreret multos duis incididunt cillum nam deserunt se
+        fore ad aliqua philosophari quamquam enim quibusdam, dolore est doctrina.</p>
+        <p>Qui ex minim mandaremus, si proident praetermissum, elit de
+        quibusdam ita export fidelissimae doctrina elit singulis. Est voluptate te
+        nostrud e ea veniam dolor si mandaremus id quo se irure anim tempor qui summis
+        fabulas ullamco e nulla admodum ut illum legam ut fabulas hic velit arbitror,
+        doctrina dolore doctrina laborum, quo export deserunt deserunt.</p>
+    </div>
+    <div id="ourNewContent" class="popContent">
+      <h2>This is so new</h2>
+      <p><img src="https://source.unsplash.com/random/800x800"></p>
+      <p>Malis est incurreret. Officia nisi pariatur non non ab concursionibus. Aut ipsum
+        id minim, admodum iis incididunt nam amet senserit praetermissum ea quem
+        pariatur comprehenderit.</p>
+    </div>
+  </div>
+
+  <div class="mainContainer">
+    <div class="header fullWidth">
+      <h1>Revealing content with JS events</h1>
+    </div>
+    <div class="mainContent fullWidth" >
+
+      <div class="section">
+        <h1 class="fullWidth contentClicker" data-popcontent="ourNewContent">Open our new section plz</h1>
+      </div>
+
+
+      <div class="section">
+
+        <h1 class="fullWidth contentClicker" data-popcontent="popContentA">Welcome to my website</h1>
+
+        <p class="twoColumn">
+          Ab mandaremus eu cernantur ea export mentitum praesentibus, in offendit
+          imitarentur ne iis quamquam philosophari. Est fore quid cillum proident quo
+          quibusdam imitarentur et laborum qui export a deserunt a ab cupidatat an
+          arbitror quo nostrud dolor constias de et veniam id quid, illum cupidatat aut
+          admodum in culpa fabulas imitarentur.
+        </p>
+        <p class="twoColumn">
+          Eiusmod export amet iis summis a ab iis
+          culpa dolor cillum, anim id occaecat, appellat praetermissum o consequat, ex
+          officia efflorescere ubi probant concursionibus e nostrud in expetendis ab minim
+          constias do duis in ab sunt laboris.Iis sunt instituendarum non enim cupidatat
+          et sint cillum. Ut an esse nulla quis o anim nescius et expetendis. Ab aliqua
+          fidelissimae, ab fugiat cupidatat doctrina, nescius malis litteris pariatur ne
+          ita multos incurreret o a esse laborum eiusmod ad anim ea aliquip, se in culpa
+          esse veniam hic aute a quamquam a veniam.
+        </p>
+      </div>
+
+      <div class="section">
+
+        <h1 class="fullWidth contentClicker" data-popcontent="popContentB">Section B</h1>
+
+        <p class="twoColumn">
+          Ab mandaremus eu cernantur ea export mentitum praesentibus, in offendit
+          imitarentur ne iis quamquam philosophari. Est fore quid cillum proident quo
+          quibusdam imitarentur et laborum qui export a deserunt a ab cupidatat an
+          arbitror quo nostrud dolor constias de et veniam id quid, illum cupidatat aut
+          admodum in culpa fabulas imitarentur.
+        </p>
+        <p class="twoColumn">
+          Eiusmod export amet iis summis a ab iis
+          culpa dolor cillum, anim id occaecat, appellat praetermissum o consequat, ex
+          officia efflorescere ubi probant concursionibus e nostrud in expetendis ab minim
+          constias do duis in ab sunt laboris.Iis sunt instituendarum non enim cupidatat
+          et sint cillum. Ut an esse nulla quis o anim nescius et expetendis. Ab aliqua
+          fidelissimae, ab fugiat cupidatat doctrina, nescius malis litteris pariatur ne
+          ita multos incurreret o a esse laborum eiusmod ad anim ea aliquip, se in culpa
+          esse veniam hic aute a quamquam a veniam.
+        </p>
+      </div>
+
+      <div class="section">
+
+        <h1 class="fullWidth contentClicker" data-popcontent="popContentC">Third Section (C)</h1>
+
+        <p class="twoColumn">
+          Ab mandaremus eu cernantur ea export mentitum praesentibus, in offendit
+          imitarentur ne iis quamquam philosophari. Est fore quid cillum proident quo
+          quibusdam imitarentur et laborum qui export a deserunt a ab cupidatat an
+          arbitror quo nostrud dolor constias de et veniam id quid, illum cupidatat aut
+          admodum in culpa fabulas imitarentur.
+        </p>
+        <p class="twoColumn">
+          Eiusmod export amet iis summis a ab iis
+          culpa dolor cillum, anim id occaecat, appellat praetermissum o consequat, ex
+          officia efflorescere ubi probant concursionibus e nostrud in expetendis ab minim
+          constias do duis in ab sunt laboris.Iis sunt instituendarum non enim cupidatat
+          et sint cillum. Ut an esse nulla quis o anim nescius et expetendis. Ab aliqua
+          fidelissimae, ab fugiat cupidatat doctrina, nescius malis litteris pariatur ne
+          ita multos incurreret o a esse laborum eiusmod ad anim ea aliquip, se in culpa
+          esse veniam hic aute a quamquam a veniam.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.10.0/rellax.min.js" charset="utf-8"></script>
+  <script src="script.js" charset="utf-8"></script>
+
+</body>
+
+</html>

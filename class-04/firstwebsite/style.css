@@ -1,0 +1,7 @@
+/*Stylesheets do not require setup. You can just start typing CSS.*/
+
+/*CSS selector: refers to the tag you want to style*/
+h1 {
+   color: red;
+   font-family: "Arial";
+}

@@ -1,0 +1,19 @@
+nav ul {
+/*    removes the bullet points from the list*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 75px;
+    background-color: aquamarine; 
+}
+
+li a {
+/*    removes the underline that comes with an a tag*/
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+li a:hover {
+   background-color: bisque;
+    color: palevioletred;
+}

@@ -1,0 +1,65 @@
+body {
+  font-size: 6rem;
+  background-color: #EEE;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainContainer {
+  box-sizing: border-box;
+  background-color: #111;
+  /* padding: 1vmin; */
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: column; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column-reverse; */
+  /* justify-content: center; */
+  justify-content: space-around;
+  /* justify-content: space-around; */
+  height: 75vh;
+  /* align-items: flex-start; */
+  /* flex-wrap: wrap; */
+}
+
+.item {
+  box-sizing: border-box;
+  background-color: #DADB0D;
+  color: #eee;
+  font-weight: bold;
+  padding: 2vmin;
+  border-radius: 2vmin;
+}
+
+/**********************************************************/
+.face01 {
+  background-color: rgb(23, 221, 161);
+  /* order: 1; */
+  /* flex-grow: 1; */
+}
+
+.face02 {
+  background-color: rgb(214, 99, 22);
+  /* order: -1; */
+  /* flex-grow: 1; */
+}
+
+.face03 {
+  background-color: rgb(85, 23, 186);
+  /* order: 0; */
+  /* flex-grow: 8; */
+}
+
+.face04 {
+  background-color: rgb(222, 207, 14);
+  /* order: 0; */
+  /* flex-grow: 1; */
+}
+
+.face05 {
+  background-color: rgb(186, 23, 101);
+  /* order: 0; */
+  /* flex-grow: 1; */
+}

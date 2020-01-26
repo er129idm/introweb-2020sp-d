@@ -1,0 +1,66 @@
+== WEB: MIDTERM PROJECT PROPOSALS ==
+
+[x] Alalade,Deborah
+- Glitchy gridded Portfolio
+
+[x] Chou,Kasper
+- https://docs.google.com/presentation/d/1fH9AKnfF22LhHU3DCUIiNdeKzfxmmJMH3lG67JlFCNI/edit#slide=id.p1
+- Portfolio page, simple big bold color
+
+[x] Dhamija,Uma Rachel
+- Portfolio page, possible angular grid display, micro-interactions and animations
+
+[x] Funt,Jenni
+- https://docs.google.com/presentation/d/1fPOo-qqqQ9ozO0X2cxX-Oslq4lrDukzyTOFfgYSeVFA/edit#slide=id.p
+- Colorful, space themed, Z-indexing, layering, BIG BOLD TYPE, knockouts?
+
+[x] Knox,John
+- https://docs.google.com/presentation/d/14BZZEzo5ewPGTUsryTAMaudQG_YUhnAbk7aEJvYZN7Q/edit?ts=5d9e11a1#slide=id.p
+- VR space experience
+
+[x] Lee,Jason
+- Photo Portfolio site, heavily gridded
+
+[x] McBride,Dominique
+- https://docs.google.com/presentation/d/12r6X-v58Okb_sXTsrgoVxcJ1eGUENi_OOn_DtOAyZjc/edit#slide=id.p
+- Queer positive fashion brand
+
+[x] Moon,JiYoung
+- https://docs.google.com/presentation/d/1u5eoNlPhxJ8A07q89YKde6EjjkDrXBv3-0q25s8_co8/edit?ts=5d9e230c#slide=id.g63132eb5d6_1_1
+- Bilingual news site
+
+[x] Pilika,Joann
+- https://github.com/Joap49/Midterm
+- Beauty care site, no layout yet, refs good
+
+[x] Wang,Ruoxi
+- https://docs.google.com/presentation/d/18kMDZ9NyqqKxi16oYL5E8IB8h0i8IYvoHlunJyRjkIA/edit#slide=id.p1
+- Neon noir film theatre
+
+[x] Lee,Daniel Heechan
+- https://drive.google.com/drive/folders/1Iw4vIKy3MOJjdIR40dcndHVYW4WvIKs0
+- Neon noir / VHS vapor bar - Starlight bar
+
+[x] Olanday,Gabriel
+- Promo page for Twitch channel
+-
+
+[x] Huang, Yuzhi
+- https://docs.google.com/presentation/d/1VJwqevnRcioARASyp0N-RpMMBQpU9mgZrqMo5Pdyetk/edit?usp=sharing
+
+[x] Hwang, Jimmy
+- Promosite for self as DJ / Producer
+-
+
+[x] Parthiban,Anand
+- https://docs.google.com/presentation/d/1I72dXTyNCHcAEiBoCgz2yesKevZhxRIThp6rnxiOuZc/edit#slide=id.p
+- Single scroll historical overview of boxing, mondrian layout?
+
+[ ] Lee,Soo Jin
+-
+
+[ ] Shin,Ji Hwan (Eric)
+-
+
+[x] Tong,Markk
+- Masonry grid news site focusing on image rather than article titles

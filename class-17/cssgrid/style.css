@@ -1,0 +1,45 @@
+.item1{
+    background-color:aqua;
+    height: 120px;
+    grid-area: header;
+    
+}
+
+.item2{
+    background-color:aqua;
+    height: 240px;
+    grid-area: content1;
+}
+
+.item3{
+    background-color:aqua;
+    height: 240px;
+    grid-area: content2;
+}
+
+.item4 {
+    background-color:aqua;
+    height: 120px;
+    grid-area: footer;
+
+}
+
+.grid-container{
+    background-color: black;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 'header header header header'
+    'content1 content1 content2 content2'
+    'footer footer footer footer';
+    padding: 10px; 
+}
+
+
+
+
+
+
+
+
+
+

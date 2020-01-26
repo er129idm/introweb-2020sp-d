@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 3vmin 6vmin 0vmin 6vmin;
+  background-color: #eee;
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: #222;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 3vmin;
+  line-height: 5vmin;
+  letter-spacing: -0.05em;
+  word-spacing: 0.2em;
+}
+
+h1 {
+  font-size: 6vmin;
+}
+
+.mainGrid {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 2.5vmin;
+  grid-row-gap: 10vmin;
+}
+
+.mainGrid * {
+  box-sizing: border-box;
+  overflow: hidden;
+  /* padding: 1vmin; */
+  /* border: 1px solid #333; */
+  /* background-color: #eee; */
+}
+
+.fullWidth {
+  grid-column-end: span 8;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #222;
+  color: #eee;
+  padding: 2vmin 5vmin 2vmin 5vmin;
+  margin-bottom: 3vmin;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.menu a {
+  /* text-transform: uppercase; */
+  font-weight: bolder;
+  color: #eee;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  grid-row-end: span 3;
+  background-image: url('https://picsum.photos/1920/1080');
+  background-position: center;
+  background-size: cover;
+  justify-self: stretch;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  color: #eee;
+  height: 200px;
+}
+
+.breaker {
+  border-bottom: 1vmin solid #222;
+}
+
+.item-start-4 {
+  grid-column-start: 5;
+}
+
+.item-3x4 {
+  grid-column-end: span 3;
+  grid-row-end: span 4;
+}
+
+.item-5x2 {
+  grid-column-end: span 5;
+  grid-row-end: span 2;
+}
+
+.item-4x2 {
+  grid-column-end: span 4;
+  grid-row-end: span 2;
+}
+
+.item-4x4 {
+  grid-column-end: span 4;
+  grid-row-end: span 0.5;
+}
+
+.item-2x4 {
+  grid-column-end: span 2;
+  grid-row-end: span 0.5;
+}
+
+.item-2x2 {
+  grid-column-end: span 2;
+  /* grid-row-end: span 1; */
+}
+
+.item-2x2 {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.item-2x1 {
+  grid-column-end: span 2;
+}
+
+.wide-img {
+  width: 100%;
+}

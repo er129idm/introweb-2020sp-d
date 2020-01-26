@@ -1,0 +1,129 @@
+body, html {
+
+  background-color: #222;
+  color: #eee;
+  font-family: sans-serif;
+  height: 100%;
+
+}
+
+body {
+  font-size: 2rem;
+}
+
+p {
+  font-weight: 200;
+  line-height: 3rem;
+}
+
+.mainContainer{
+  background-color: #222;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1vmin;
+  padding: 0;
+}
+
+.mainContent {
+  margin-top: 100vh;
+  z-index: 1;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  font-size: 4rem;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('https://source.unsplash.com/random/1280x720');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.header h1 {
+  width: 80vw;
+}
+
+.fullWidth {
+  grid-column-start: 0;
+  grid-column-end: span 4;
+}
+
+.twoColumn {
+  grid-column-end: span 2;
+}
+
+img {
+  width: 100%;
+}
+
+.section {
+  border-top: 1vh solid #eee;
+  grid-column-start: 0;
+  grid-column-end: span 4;
+  background-color: #222;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 4vmin;
+  grid-row-gap: 1vmin;
+  padding: 5vmin 10vmin 5vmin 10vmin;
+  /* margin-top: 5vh; */
+}
+
+#popover {
+  display: none;
+  box-sizing: border-box;
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 50%;
+  left: 50%;
+  height: 100%;
+  background-color: #fff;
+  padding: 10vmin;
+  color: #111;
+  z-index: 100;
+  -webkit-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 50px 0px rgba(0,0,0,0.75);
+}
+
+.popContent {
+  display: none;
+}
+
+#closeButton {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 5vmin;
+  top: 1vmin;
+  background-color: #111;
+  color: #fff;
+  width: 7vmin;
+  height: 7vmin;
+  font-size: 4vmin;
+  line-height: 4vmin;
+  border-radius: 7vmin;
+  transition: background-color 0.25s;
+}
+
+#closeButton:hover {
+  background-color: #ff0072;
+}
+
+.contentClicker {
+  cursor: pointer;
+}
+
+.contentClicker:hover {
+  text-decoration: underline;
+}

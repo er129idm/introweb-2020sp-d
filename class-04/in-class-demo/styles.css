@@ -1,0 +1,13 @@
+body {
+  background-color: #CCCCCC;
+  font-family: monospace;
+}
+
+h1 {
+  color: #FFFFFF;
+}
+
+.redtext {
+  color: #FF0000;
+  font-family: sans-serif;
+}

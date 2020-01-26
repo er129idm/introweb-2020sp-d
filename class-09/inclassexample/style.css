@@ -1,0 +1,42 @@
+* {
+  font-family: sans-serif;
+}
+
+.bodyCopy {
+  line-height: 2em;
+  letter-spacing: 0.1em;
+}
+
+.subContentContainer * {
+  /* border: 1vmin solid gold; */
+}
+
+.subContent {
+  background-color: #000;
+  color: #fff;
+}
+
+.subContent + .subContent {
+  margin-top: 2vmin;
+}
+
+.subContent:hover {
+  background-color: #ff0072 !important;
+}
+
+a, a:visited{
+  box-sizing: border-box;
+  background-color: #ff0072;
+  padding: 2vmin;
+  text-decoration: none;
+  border-radius: 1vmin;
+  color: #fff;
+}
+
+a:hover {
+  background-color: blue;
+}
+
+a:active {
+  color: red;
+}
