@@ -1,4 +1,4 @@
-# Class #3 (Monday, 9/9)
+# Class #3
 
 #### In-Class
 
@@ -85,6 +85,6 @@ This key file, on a Mac, is stored in the hidden folder `~/.ssh/`.
 
 - Paste the public key and hit Save.
 
-If you run into any issues **please [email](mailto:effie.vision@gmail.com) me**
+If you run into any issues **please [email](mailto:er129@nyu.edu) me**
 
 Peace! ✌️
