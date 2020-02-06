@@ -5,7 +5,7 @@
 * Git review. See previous class slides.
 
 * Intro to UNIX/command line
-  * [Clean Up the Fridge!](https://github.com/effieVision/command-line-refrigerator-lab)
+  * [Clean Up the Fridge!](https://github.com/er129idm/command-line-refrigerator-lab)
 
 * See the [in-class-demo](in-class-demo) folder for the basic .html + .css siter we made.
 
