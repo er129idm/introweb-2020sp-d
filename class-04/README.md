@@ -19,9 +19,9 @@
 
   * Email me this link with the following project link.
 
-## Homework part B - Restaurant time!
+## Homework part B - Restaurant Venue time!
 
-You will be making a simple website for a fictional restaurant of your own making, or, for an existing restaurant you love.
+You will be making a simple website for a fictional restaurant, club, venue, storefront, etc... of your own making, or, for an existing restaurant you love.
 
 * Using the Git, create a new repo called `restaurant-web`
 
