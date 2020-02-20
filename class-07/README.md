@@ -20,6 +20,6 @@
 
 #### Research
 
-* Review CSS Tricks' [https://css-tricks.com/snippets/css/a-guide-to-flexbox/](A Complete Guide to Flexbox)
+* Review CSS Tricks' https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 * Review this YouTube video about CSS `grid`: https://www.youtube.com/watch?v=7kVeCqQCxlk
