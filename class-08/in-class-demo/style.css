@@ -39,7 +39,7 @@ a, a:visited {
 .header {
   display: flex;
   height: 50vh;
-  background-image: url('http://placekitten.com/800/1080');
+  background-image: url('https://picsum.photos/1920/1080');
   background-size: cover;
   background-position: center;
   align-items: center;
@@ -47,33 +47,57 @@ a, a:visited {
   color: #fff;
 }
 
-h1 {}
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 3em;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
 
 .threeColumnContainer {
   width: 100%;
   display: flex;
 }
 
-.imgSubtitleContainer {
-  width: 30%;
-  overflow: hidden;
+.imgSubtitleContainer img {
+  width: 98%;
+  height: 400px;
+  object-fit: cover;
+  /* overflow: hidden; */
 }
 
-.imgSubtitleContainer + .imgSubtitleContainer {
+
+
+/* .imgSubtitleContainer + .imgSubtitleContainer {
   margin-left: 10px;
-}
+} */
 
 .twoColumnContainer {
   display: flex;
+  justify-content: space-between;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.subtitle {
+  font-size: 0.8em;
+  color: rgba(0,0,0,0.5);
 }
 
 .twoColumnContainer p {
-  width: 50%;
+  box-sizing: border-box;
+  width: 48%;
 }
 
 .footer {
   background-color: #222;
   color: #fff;
   text-align: right;
+  margin-top: 48px;
   padding-right: 10vmin;
 }
