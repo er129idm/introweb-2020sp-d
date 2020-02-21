@@ -1,0 +1,70 @@
+body, html {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+
+.navWrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+}
+
+.navMenu {
+  display: flex;
+  width: 80vw;
+  justify-content: space-between;
+  font-size: 3em;
+}
+
+a, a:visited {
+  color: #fff;
+}
+
+.header {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+}
+
+.insetContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.threeColumnContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgSubtitleContainer img {
+  width: 98%;
+}
+
+.twoColumnContainer {
+  display: flex;
+}
+
+.twoColumnContainer p {
+  width: 98%;
+}
+
+.footer {
+  font-size: 3em;
+  background-color: #333;
+  color: #fff;
+  text-align: right;
+}
