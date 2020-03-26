@@ -6,7 +6,6 @@ body, html {
   padding: 0px;
   margin: 0px;
   font-family: sans-serif;
-  overflow: hidden;
 }
 
 .gridContainer {
@@ -69,4 +68,22 @@ body, html {
     50%  {  color: #000;
             padding: 2vmin; }
     100% {  color: #ff0072;    }
+}
+
+/* -- MEDIA QUERIES --*/
+
+@media screen and (max-width: 600px) {
+
+  body, html {
+    background-color: #ff0072;
+  }
+
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .item-2x, .item-3x, .item-4x, .item-2x2, .item-8x {
+    grid-column-end: span 1;
+  }
+
 }

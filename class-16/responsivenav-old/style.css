@@ -1,9 +1,16 @@
 body {
   background-color: #fff;
   font-family: sans-serif;
-  padding: 2vmin;
 
 }
+
+/* FLEXBOX TOGGLE */
+/* .topnav {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #ff0072;
+} */
 
 /* GRID TOGGLE */
 .topnav {
@@ -26,19 +33,6 @@ body {
     font-weight: bolder;
 }
 
-.contentContainer {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-}
-
-.item-4x {
-  grid-column-end: span 1;
-}
-
-.item-8x {
-  grid-column-end: span 1;
-}
-
 /* Change color on hover */
 .topnav a:hover {
     background-color: #ddd;
@@ -48,6 +42,12 @@ body {
 /* On screens that are 600px wide or more, make the menu links stack on top of each other instead of next to each other */
 @media screen and (min-width: 600px) {
 
+  /* FLEXBOX TOGGLE */
+  /* .topnav {
+    background-color: #0ea7e8;
+    flex-direction: row;
+    justify-content: space-between;
+  } */
 
   /* GRID TOGGLE */
   .topnav {
@@ -55,19 +55,5 @@ body {
     opacity: 1.0;
     padding: 4vmin;
     grid-template-columns: repeat(3, 1fr);
-  }
-
-  .contentContainer {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-column-gap: 4vmin;
-  }
-
-  .item-4x {
-    grid-column-end: span 4;
-  }
-
-  .item-8x {
-    grid-column-end: span 8;
   }
 }
