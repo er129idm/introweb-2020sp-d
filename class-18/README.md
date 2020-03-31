@@ -1,6 +1,6 @@
-## Day 18 🎃
+## Day 18
 
-* [Slides for today](https://docs.google.com/presentation/d/1WtYvidQ7P2CwpuXZn_G6DOt-7daKH4RV-TDiYHzjS6E/edit?usp=sharing)
+* [Slides for today](https://docs.google.com/presentation/d/1hDMqDGypS6ubWMO0duZZTZqPqzlQsmW3i007mW2RTXA/edit?usp=sharing)
 
 * JS Practice: Strings, Integers, Floats, Arrays
 

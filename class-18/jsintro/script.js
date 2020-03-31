@@ -7,10 +7,10 @@
 //////////////////// Console + Alert ////////////////////
 
 //// sending messages to the developers console
-console.log("Trick or Treat!"); //included a string in quotation marks
+console.log("YEET!"); //included a string in quotation marks
 
 //// Popping open an alert window
-// alert("Boo!");
+// alert("Le Yeet.");
 
 //////////////////// Variables / Types ////////////////////
 
@@ -23,8 +23,8 @@ console.log("Trick or Treat!"); //included a string in quotation marks
 //// defining variables
 //// string: uses quotation marks to literally mark a string
 
-var firstName = "Happy";
-var lastName = "Halloween";
+var firstName = "Lil";
+var lastName = "Yeet";
 var space = " ";
 
 //// concatinating variables
@@ -67,8 +67,8 @@ console.log(num1 + num2 + num3);
   which starts at ZERO, not ONE.
 */
 
-var firstArray = ["spooky", "scary", "haunted", "spectral", "dark"];
-var secondArray = ["pumpkin", "little ghost", "cat", "bat", "zombie", "candy"];
+var firstArray = ["Lil", "Big", "DJ", "Dr.", "Dark", "Social"];
+var secondArray = ["Yeet", "Xan", "Kitten", "Corona", "Zoom", "Distancing", "Nook"];
 
 //// Print entire array...
 // console.log(firstArray); //console log of the full array
@@ -77,8 +77,8 @@ var secondArray = ["pumpkin", "little ghost", "cat", "bat", "zombie", "candy"];
 //// Print one item from the array...
 console.log(firstArray[1]);
 console.log(secondArray[0]);
-//scary
-//little ghost
+//DJ
+//Dr. Distancing
 
 //////////////////// LOGIC with CONDITIONALS ////////////////////
 
@@ -92,7 +92,7 @@ console.log(secondArray[0]);
 
 var num = 2;
 
-if (num === 15){
+if (num == 15){
    console.log('you have the correct number!')
 } else if (num > 15){
    console.log('your number is too big')
@@ -113,7 +113,7 @@ if (num === 15){
 // console.log(Math.random() * 50);
 
 //// Random INTEGER from 0-length of an array, giving us an INDEX...
-var secondArray = ["pumpkin", "little ghost", "cat", "bat", "zombie", "candy"];
+var secondArray = ["Animal Crossing", "Zoom Party", "Toilet Paper", "Yoga", "Netflix Party", "Bops"];
 var randomIndex = Math.floor( Math.random() * secondArray.length );
 console.log(randomIndex);
 
@@ -169,14 +169,14 @@ console.log(addNumberAndReturn(400,200));
 //// test each of your doors by calling the function at least 3 times
 
 function door(num){
-  if (num === 1){
-    return "Hall of Mirrors";
+  if (num == 1){
+    return "Bathroom";
   }
-  else if (num === 2){
-    return "Mummy Bathroom";
+  else if (num == 2){
+    return "Bedroom";
   }
-  else if (num === 3){
-    return "Witchy Kitchen";
+  else if (num == 3){
+    return "Kitchen";
   }
   else {
       return "There are only 3 doors!";
