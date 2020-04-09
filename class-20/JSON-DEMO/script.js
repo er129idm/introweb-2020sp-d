@@ -7,7 +7,7 @@ let contentGridElement = document.getElementById('contentGrid');
 let myJSON = {
   "title" : "Effie J. Rieper",
   "picture_url" : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Lil-Bub-2013.jpg/320px-Lil-Bub-2013.jpg",
-  "favorite_color" : "#FF00FF",
+  "favorite_color" : "#FF0072",
   "pets" : ["cat", "dog", "roomba"]
 }
 
@@ -37,12 +37,6 @@ let jsonDatabase = [
     "picture_url" : "https://img.buzzfeed.com/buzzfeed-static/static/2019-04/10/13/asset/buzzfeed-prod-web-06/anigif_sub-buzz-15799-1554917302-1.gif?downsize=700:*&output-format=auto&output-quality=auto",
     "favorite_color" : "#c1a411",
     "pets" : ["puppy", "instagram", "hairdye"]
-  },
-  {
-    "title" : "Gorbin Morvins",
-    "picture_url" : "https://sophosnews.files.wordpress.com/2017/05/shutterstock_324355691.jpg?w=780&h=408&crop=1",
-    "favorite_color" : "#00FF00",
-    "pets" : ["crab", "igloo", "worms"]
   }
 
 ]
@@ -54,21 +48,21 @@ for (var i = 0; i < jsonDatabase.length; i++) {
   createElementProper(jsonDatabase[i]);
 }
 
-// function createElementMessy(incomingJSON) {
-//   // var completeHTML = "<div class=\"contentItem\" style=\"background-color: " + incomingJSON['favorite_color'] + "\"> <h3 class=\"contentTitle\">" + incomingJSON['title'] + "</h3><h4>My Pets:</h4><ul class=\"petList\"><li>Pet 1</li><li>Pet 1</li><li>Pet 1</li></ul></div>";
-//   // contentGridElement.innerHTML = completeHTML;
-//
-//   /// Start our HTML chunk
-//   var incompleteHTML = "<div class=\"contentItem\" style=\"background-color: " + incomingJSON['favorite_color'] + "\"> <h3 class=\"contentTitle\">" + incomingJSON['title'] + "</h3><h4>My Pets:</h4><ul class=\"petList\">";
-//   /// Append Pets to the list
-//   for (var i = 0; i < incomingJSON['pets'].length; i++) {
-//     var petString = "<li>" + incomingJSON['pets'][i] + "</li>";
-//     incompleteHTML += petString;
-//   }
-//   /// Complete our HTML chunk
-//   incompleteHTML += "</ul></div>";
-//   contentGridElement.innerHTML = incompleteHTML;
-// }
+function createElementMessy(incomingJSON) {
+  // var completeHTML = "<div class=\"contentItem\" style=\"background-color: " + incomingJSON['favorite_color'] + "\"> <h3 class=\"contentTitle\">" + incomingJSON['title'] + "</h3><h4>My Pets:</h4><ul class=\"petList\"><li>Pet 1</li><li>Pet 1</li><li>Pet 1</li></ul></div>";
+  // contentGridElement.innerHTML = completeHTML;
+
+  /// Start our HTML chunk
+  var incompleteHTML = "<div class=\"contentItem\" style=\"background-color: " + incomingJSON['favorite_color'] + "\"> <h3 class=\"contentTitle\">" + incomingJSON['title'] + "</h3><h4>My Pets:</h4><ul class=\"petList\">";
+  /// Append Pets to the list
+  for (var i = 0; i < incomingJSON['pets'].length; i++) {
+    var petString = "<li>" + incomingJSON['pets'][i] + "</li>";
+    incompleteHTML += petString;
+  }
+  /// Complete our HTML chunk
+  incompleteHTML += "</ul></div>";
+  contentGridElement.innerHTML = incompleteHTML;
+}
 
 function createElementProper(incomingJSON) {
 
@@ -102,13 +96,10 @@ function createElementProper(incomingJSON) {
   }
 
   /// Create & add footer image
-  let newImageContainer = document.createElement("DIV");
-  newImageContainer.classList.add("footerImageContainer");
-  newImageContainer.style.backgroundImage = "url('" + incomingJSON['picture_url'] + "')";
-  // let newImage = document.createElement("IMG");
-  // newImage.src = incomingJSON['picture_url'];
-  // newImageContainer.appendChild(newImage);
-  newContentElement.appendChild(newImageContainer);
+  let newImage = document.createElement("IMG");
+  newImage.classList.add("footerImage");
+  newImage.src = incomingJSON['picture_url'];
+  newContentElement.appendChild(newImage);
 
   /// Add the item to the page
   contentGridElement.appendChild(newContentElement);
